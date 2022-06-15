@@ -551,6 +551,8 @@ class Flask(Scaffold):
                 " running it."
             )
 
+    print("Yo")
+
     @locked_cached_property
     def name(self) -> str:  # type: ignore
         """The name of the application.  This is usually the import name
